@@ -1,0 +1,65 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ff7f50; /* Coral */
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff7f50;
+    background-color: #fff; /* White */
+    border-radius: 4px;
+  }
+  
+  section {
+    padding: 100px 20px;
+    height: 100vh;
+  }
+  
+  #home {
+    background-color: #f0f8ff; /* AliceBlue */
+  }
+  
+  #about {
+    background-color: #faebd7; /* AntiqueWhite */
+  }
+  
+  #services {
+    background-color: #e0ffff; /* LightCyan */
+  }
+  
+  #contact {
+    background-color: #f5f5dc; /* Beige */
+  }
+  
