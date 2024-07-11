@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h1>Rushank Kale</h1>
+        <p>Full Stack Web Developer</p>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm a passionate front-end developer specializing in creating stunning and responsive web applications. Currently, I'm interning at IBM SkillsBuild and working on diverse web projects at Prasunet company, focusing on HTML, CSS, JavaScript, and responsive design principles.</p>
+    </section>
+    <section id="projects">
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>QR Code Project</h3>
+                <p>A dynamic web application for generating and scanning QR codes, providing seamless and efficient solutions for data sharing and access. This project leverages advanced algorithms to create high-quality QR codes and includes a robust scanner that works flawlessly across different devices. The application features user-friendly interfaces, customization options for QR codes, and a secure backend to manage and store data efficiently.</p>
+                <ul>
+                    <li>Developed using HTML, CSS, and JavaScript.</li>
+                    <li>Implemented QR code generation using a reliable QR code library.</li>
+                    <li>Ensured cross-browser compatibility and mobile responsiveness.</li>
+                    <li>Integrated a secure backend to store and manage generated QR codes.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Event Management Website</h3>
+                <p>A comprehensive platform for planning, organizing, and managing events with real-time updates and user-friendly features. The website allows users to create event listings, send invitations, track RSVPs, and manage event logistics. It includes an intuitive dashboard for event organizers to monitor attendance, communicate with participants, and handle event-related tasks efficiently.</p>
+                <ul>
+                    <li>Built with HTML, CSS, JavaScript, and React.</li>
+                    <li>Integrated with a calendar API for scheduling and reminders.</li>
+                    <li>Implemented real-time updates using WebSockets.</li>
+                    <li>Developed a user-friendly interface with interactive elements for easy navigation.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Weather Web Application</h3>
+                <p>Weather forecasting app using the Weather API, providing accurate and up-to-date weather information. This application offers a sleek and modern interface, delivering real-time weather updates, forecasts, and alerts for various locations. It includes detailed weather metrics, such as temperature, humidity, wind speed, and precipitation, along with interactive maps for visualizing weather patterns.</p>
+                <ul>
+                    <li>Developed using HTML, CSS, JavaScript, and React.</li>
+                    <li>Utilized the Tomorrow.io API for fetching weather data.</li>
+                    <li>Implemented interactive maps using a mapping library.</li>
+                    <li>Ensured high performance and fast loading times.</li>
+                </ul>
+            </div>
+        </section>
+        
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>JQuery</li>
+            <li>EJS</li>
+            <li>SQL</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>PostgreSQL</li>
+        </ul>
+    </section>
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume to learn more about my professional journey and experiences.</p>
+        <a href="https://online.publuu.com/582010/1306144" download class="btn">Download Resume</a>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Rushank Kale</p>
+    </footer>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        /*(function(){
+            emailjs.init("YOUR_USER_ID"); // Replace 'YOUR_USER_ID' with your EmailJS user ID
+        })();*/
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
